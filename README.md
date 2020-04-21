@@ -8,8 +8,8 @@ Load a single CPU thread and measure its speed.
 The `gopsutil` project uses `/proc/cpuinfo` as a fallback for
 determining a CPU's capable speed. However, on Amazon EC2
 instances only the current speed is made available. There is
-really no way to get the real "max" CPU speed other than to
-load the CPU and take measurements.
+really no way to get the real "max" CPU speed (wihout `sudo`) 
+other than to load the CPU and take measurements.
 
 This tool is for exploring the idea of what it would take
 to get reliable measurements of a loaded CPU.
