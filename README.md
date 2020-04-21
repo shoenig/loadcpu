@@ -19,33 +19,33 @@ to get reliable measurements of a loaded CPU.
 ```bash
 $ go build
 $ for i in {1..10}; do ./loadcpu && sleep 3 && echo ""; done
-read current speed: 796.962000.2
-loaded max speed:   3902.771000.2
+read current speed: 800.04
+loaded max speed:   3900.70
 
-read current speed: 1193.820000.2
-loaded max speed:   3903.541000.2
+read current speed: 1924.65
+loaded max speed:   3901.08
 
-read current speed: 800.177000.2
-loaded max speed:   3916.474000.2
+read current speed: 1495.16
+loaded max speed:   3900.33
 
-read current speed: 2251.564000.2
-loaded max speed:   3900.003000.2
+read current speed: 2826.81
+loaded max speed:   3900.00
 
-read current speed: 800.826000.2
-loaded max speed:   3907.950000.2
+read current speed: 3400.18
+loaded max speed:   3902.43
 
-read current speed: 709.335000.2
-loaded max speed:   3904.464000.2
+read current speed: 1979.91
+loaded max speed:   3900.95
 
-read current speed: 955.625000.2
-loaded max speed:   3903.182000.2
+read current speed: 2627.13
+loaded max speed:   3900.19
 
-read current speed: 799.782000.2
-loaded max speed:   3900.002000.2
+read current speed: 889.96
+loaded max speed:   3901.62
 
-read current speed: 916.650000.2
-loaded max speed:   3912.479000.2
+read current speed: 3391.65
+loaded max speed:   3902.97
 
-read current speed: 748.158000.2
-loaded max speed:   3902.867000.2
+read current speed: 906.17
+loaded max speed:   3900.63
 ```

@@ -13,10 +13,10 @@ import (
 
 func main() {
 	// take the current max from /proc/cpuinfo
-	fmt.Printf("read current speed: %f.2\n", ReadSpeedCPU())
+	fmt.Printf("read current speed: %.2f\n", ReadSpeedCPU())
 
 	// load CPU and take measurements
-	fmt.Printf("loaded max speed:   %f.2\n", LoadedSpeedCPU())
+	fmt.Printf("loaded max speed:   %.2f\n", LoadedSpeedCPU())
 }
 
 var (
